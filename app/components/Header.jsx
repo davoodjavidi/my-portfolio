@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="flex flex-col text-center mx-auto items-center justify-center h-screen w-11/12">
+    <div className="flex flex-col text-center mx-auto items-center justify-center h-9/10 w-11/12 py-30 md:py-35">
       <motion.div
         className="flex flex-col justify-center items-center gap-3"
         initial={{ scale: 0 }}
@@ -23,13 +23,14 @@ export default function Header() {
         >
           hi, i&apos;m davood javidi
         </motion.h1>
-        <h1 className="capitalize font-semibold flex items-center gap-2 text-4xl">
+        <h1 className="capitalize font-semibold flex items-center justify-center gap-2 text-4xl">
           frontend web developer <CodeXml className="text-rose-700" />
         </h1>
-        <h1 className="text-3xl font-semibold flex items-center gap-2">
-          based in iran <Earth className="text-rose-700" />
-        </h1>
-        <p>im a 32 years old programer with over 5 years of experience</p>
+
+        <p className="text-gray-800">
+          A Frontend web Developer building fast, modern, and user-friendly web
+          applications.
+        </p>
       </motion.div>
 
       <div className="flex flex-col sm:flex-row gap-4 mt-8">

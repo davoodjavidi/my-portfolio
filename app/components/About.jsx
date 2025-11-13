@@ -22,17 +22,11 @@ export default function About() {
         About Me
       </motion.h2>
 
-      <div className="w-full flex flex-col lg:flex-row items-center gap-20 my-20">
+      <div className="w-full flex flex-col lg:flex-row items-center gap-20 my-10">
         <div className="w-64 md:w-80 rounded-3xl">
           <Image src={assets.user_image} alt="Davood Javidi" />
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl">
-            davood javidi is an experience web developer with over 5 years
-            experience and collaborating with prestigious companies like
-            Microsoft, Google and Ebay.
-          </p>
-
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl my-2">
             {infoList.map((info) => (
               <li
@@ -47,6 +41,15 @@ export default function About() {
               </li>
             ))}
           </ul>
+
+          <p className="my-5 max-w-2xl">
+            PTE Academic Score: 84/90 - Expert Level English Proficiency
+            (Achieved-2025)
+          </p>
+          <p className="mb-5 max-w-2xl">
+            I build performant and scalable front-end solutions. Currently
+            seeking full-time opportunities.
+          </p>
           <motion.h4
             initial={{ x: 30 }}
             whileInView={{ x: 0 }}
