@@ -60,9 +60,16 @@ export default function Navbar() {
             <Moon className="size-6 hover:text-gray-600" />
           </button> */}
 
-          <Button bgColor="bg-fuchsia-400" link="#contact">
+          {/* <Button bgColor="bg-fuchsia-400" link="#contact">
             contact me <MoveUpRight className="size-5" />
-          </Button>
+          </Button> */}
+
+          <a
+            href="#contact"
+            className="w-max hidden lg:flex bg-violet-900 text-gray-100 items-center gap-2 px-6 py-4 border border-gray-500 rounded-full capitalize cursor-pointer hover:bg-gray-300 transition-all hover:text-black duration-300"
+          >
+            Contact Me
+          </a>
           <button className="block md:hidden" onClick={hanleMenuButton}>
             <Menu />
           </button>
