@@ -112,7 +112,7 @@ export default function Navbar() {
                 Contact Me
               </a>
             </li>
-            <h2 className="absolute left-3 bottom-5 text-sm flex items-center">
+            <h2 className="absolute left-3 bottom-10 text-sm flex items-center">
               <Mail className="mr-1 size-4" />
               javididavid1993@gmail.com
             </h2>
