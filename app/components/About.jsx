@@ -30,7 +30,7 @@ export default function About() {
           <p className="mb-10 max-w-2xl">
             davood javidi is an experience web developer with over 5 years
             experience and collaborating with prestigious companies like
-            Microsoft, Google and Amazon.
+            Microsoft, Google and Ebay.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl my-2">
