@@ -1,6 +1,6 @@
 "use client";
 import { assets } from "@/assets/assets";
-import { CircleX, Menu, Moon, MoveUpRight } from "lucide-react";
+import { CircleX, Mail, Menu, Moon, MoveUpRight } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import Button from "./Button";
@@ -112,6 +112,10 @@ export default function Navbar() {
                 Contact Me
               </a>
             </li>
+            <h2 className="absolute left-3 bottom-5 text-sm flex items-center">
+              <Mail className="mr-1 size-4" />
+              javididavid1993@gmail.com
+            </h2>
           </ul>
         </div>
       </nav>
