@@ -22,7 +22,7 @@ export default function Footer() {
         </p>
         <ul className="flex gap-6 text-sm text-gray-700 font-semibold justify-center items-center mt-2 md:mt-0">
           <li>
-            <a href="#" target="_blank">
+            <a href="https://github.com/davoodjavidi" target="_blank">
               Github
             </a>
           </li>
