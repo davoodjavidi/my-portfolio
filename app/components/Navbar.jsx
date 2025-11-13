@@ -56,9 +56,9 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-4">
-          <button>
+          {/* <button>
             <Moon className="size-6 hover:text-gray-600" />
-          </button>
+          </button> */}
 
           <Button bgColor="bg-fuchsia-400" link="#contact">
             contact me <MoveUpRight className="size-5" />
