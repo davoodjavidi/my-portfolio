@@ -3,10 +3,10 @@ import { assets } from "@/assets/assets";
 import { CircleX, Mail, Menu, Moon, MoveUpRight } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
-import Button from "./Button";
 
 export default function Navbar() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  // const [isDarkMode, setIsDarakMode] = useState(true);
 
   function hanleMenuButton() {
     setIsOpenMenu((isOpenMenu) => !isOpenMenu);
@@ -57,12 +57,15 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           {/* <button>
-            <Moon className="size-6 hover:text-gray-600" />
+            <Moon
+              className="size-6 hover:text-gray-600"
+              onClick={() => {
+                setIsDarakMode((prev) => !prev);
+                document.body.classList.toggle("dark");
+                console.log("Dark mode");
+              }}
+            />
           </button> */}
-
-          {/* <Button bgColor="bg-fuchsia-400" link="#contact">
-            contact me <MoveUpRight className="size-5" />
-          </Button> */}
 
           <a
             href="#contact"

@@ -23,11 +23,11 @@ export default function About() {
       </motion.h2>
 
       <div className="w-full flex flex-col lg:flex-row items-center gap-20 my-10">
-        <div className="w-64 md:w-80 rounded-3xl">
+        {/* <div className="w-64 md:w-80 rounded-3xl">
           <Image src={assets.user_image} alt="Davood Javidi" />
-        </div>
-        <div className="flex-1">
-          <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl my-2">
+        </div> */}
+        <div className="mx-auto">
+          <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl my-2">
             {infoList.map((info) => (
               <li
                 key={info.title}

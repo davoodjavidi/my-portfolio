@@ -18,9 +18,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth dark">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${poppins.className} ${monoton.className}  antialiased dark:text-color-white`}
+        className={`${poppins.className} ${monoton.className}  antialiased transition-colors duration-500 ease-in-out`}
       >
         {children}
       </body>

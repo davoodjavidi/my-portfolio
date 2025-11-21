@@ -7,3 +7,96 @@
 button {
   cursor: pointer;
 }
+
+.dark {
+  /* Background colors */
+  background-color: #121212;
+  color: #e0e0e0;
+
+  /* Text colors */
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --text-muted: #666666;
+
+  /* Background colors */
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --bg-tertiary: #2d2d2d;
+
+  /* Border colors */
+  --border-color: #333333;
+
+  /* Accent colors */
+  --accent-color: #bb86fc;
+  --accent-secondary: #03dac6;
+
+  /* Apply colors */
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+/* Apply to common elements */
+.dark body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.dark .card,
+.dark .container,
+.dark .section {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: var(--text-primary);
+}
+
+.dark p,
+.dark span,
+.dark div {
+  color: var(--text-primary);
+}
+
+.dark a {
+  color: var(--accent-color);
+}
+
+.dark a:hover {
+  color: var(--accent-secondary);
+}
+
+.dark button {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.dark button:hover {
+  background-color: var(--accent-color);
+  color: var(--bg-primary);
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+body {
+  transition: background-color 0.5s ease, color 0.3s ease;
+}
