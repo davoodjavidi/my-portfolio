@@ -44,8 +44,8 @@ export default function About() {
 
           <h3 className="font-semibold mt-5 mb-1">English Level</h3>
           <p className=" max-w-2xl">
-            PTE Academic Score: 84/90 - Expert Level English Proficiency
-            (Achieved-2025)
+            PTE Academic Score: <span className="font-semibold">84/90</span> -
+            Expert Level English Proficiency (Achieved-2025)
           </p>
 
           <motion.h4
