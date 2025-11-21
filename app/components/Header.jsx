@@ -24,7 +24,8 @@ export default function Header() {
           hi, i&apos;m davood javidi
         </motion.h1>
         <h1 className="capitalize font-semibold flex items-center justify-center gap-2 text-4xl mt-4">
-          frontend web developer <CodeXml className="text-rose-700" />
+          frontend web developer{" "}
+          <CodeXml className="text-rose-700 hidden lg:flex" />
         </h1>
 
         <p className="text-gray-800">
