@@ -42,14 +42,12 @@ export default function About() {
             ))}
           </ul>
 
-          <p className="my-5 max-w-2xl">
+          <h3 className="font-semibold mt-5 mb-1">English Level</h3>
+          <p className=" max-w-2xl">
             PTE Academic Score: 84/90 - Expert Level English Proficiency
             (Achieved-2025)
           </p>
-          <p className="mb-5 max-w-2xl">
-            I build performant and scalable front-end solutions. Currently
-            seeking full-time opportunities.
-          </p>
+
           <motion.h4
             initial={{ x: 30 }}
             whileInView={{ x: 0 }}
