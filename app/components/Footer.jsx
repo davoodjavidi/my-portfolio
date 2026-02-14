@@ -26,16 +26,6 @@ export default function Footer() {
               Github
             </a>
           </li>
-          <li>
-            <a href="#" target="_blank">
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              Twitter
-            </a>
-          </li>
         </ul>
       </div>
     </div>
